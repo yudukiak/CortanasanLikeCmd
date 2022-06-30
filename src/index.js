@@ -62,7 +62,7 @@ const getLocalAddress = _ => {
   return txt
 }
 const getLocalFile = fileName => {
-  const path = process.env.APPDATA + '\\CortanaLikeSiri'
+  const path = process.env.APPDATA + '\\CortanasanLikeCmd'
   const dir = `${path}\\${fileName}`
   const date = getWhatTimeIsIt()
   console.log(`\n--- ${date} --------------------------------`)
@@ -104,14 +104,14 @@ const server = http.createServer((req, res) => {
     'Content-Type': 'text/html; charset=utf-8'
   }
   res.writeHead(200, option)
-  res.write('Cortana Like Siri')
+  res.write('Cortanasan Like Cmd')
   res.end()
   const cmd = req.headers.cmd
   startCmd(cmd)
 })
 
 const SETTING = getLocalFile('setting.json')
-const hardware = new Hardware('CortanaLikeSiri')
+const hardware = new Hardware('CortanasanLikeCmd')
 const localIp = getLocalAddress()
 const port = SETTING.port
 server.listen(port)
