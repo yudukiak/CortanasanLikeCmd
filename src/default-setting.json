@@ -1,0 +1,7 @@
+{
+  "port": 50334,
+  "command": {
+    "taskmanager": ["ctrl", "shift", "escape"],
+    "notepad": "C:\\Windows\\system32\\notepad.exe"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "CortanasanLikeCmd",
+  "version": "0.0.1",
+  "description": "コルタナが使えないのでそれっぽいのを作った",
+  "main": "index.js",
+  "author": "yudukiak",
+  "license": "MIT",
+  "dependencies": {
+    "keysender": "^1.6.4",
+    "os": "^0.1.1"
+  }
+}

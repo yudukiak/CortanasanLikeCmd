@@ -1,0 +1,20 @@
+{
+  "name": "CortanasanLikeCmd_build",
+  "version": "0.0.1",
+  "description": "コルタナが使えないのでそれっぽいのを作った",
+  "main": "index.js",
+  "dependencies": {
+    "nexe": "^1.1.6"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yudukiak/CortanasanLikeCmd.git"
+  },
+  "author": "yudukiak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yudukiak/CortanasanLikeCmd/issues"
+  },
+  "homepage": "https://github.com/yudukiak/CortanasanLikeCmd"
+}
